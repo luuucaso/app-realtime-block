@@ -1,0 +1,30 @@
+El juego consiste en recoger las pelotas azules en una canasta, para posteriormente volcarlas en la zona de puntaje, el jugador que consiga más puntos gana.
+
+La duración por partida es de 90 segundos, consta de dos fases, la primera es fácil solamente aparecen pelotas azules que suman +1, en la segunda fase ya aparecen pelotas rojas aleatorias que restan -1.
+
+
+
+
+Instructivo 
+
+Ejecutar el comando en la carpeta del programa
+python -m http.server 8080
+
+Abrir http://localhost:8080/ en tu navegador
+
+
+Pasos a seguir
+
+1- En el panel de la derecha bajar hasta donde dice "Start Webcam"
+
+2- Ajustar en el panel el "Goal Color" que vendría a ser en donde deben caer las pelotas. 
+
+3- Ajustar el "Target Color" que vendrían a ser las paletas.
+
+Una vez configurado esto estamos listos para comenzar.
+
+Teclas para usabilidad
+
+H - Esconde el panel de la derecha.
+R - Resetea el juego y lo deja en pausa.
+T - Comienza el juego.
